@@ -1,0 +1,26 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        @media screen and (min-width: 480px) {
+            body {
+                background-color: blue;
+                font-size: medium;
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            body {
+                background-color: green;
+                font-size: medium;
+            }
+        }
+        
+        @media screen and (min-width: 1200px) {
+            body {
+                background-color: red;
+                font-size: xx-large;
+            }
+            h1 {}
+            p {}
+        }
